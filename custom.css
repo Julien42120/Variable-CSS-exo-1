@@ -1,0 +1,56 @@
+/* BOUTONS */
+
+.btn {
+    padding: 2rem 4rem;
+    border: 2px solid var(--color, black);
+    background: transparent ;
+    font-size: 1.6em;
+    border-radius: 2px;
+}
+
+
+/* BOUTON NORMAL */
+
+.btn{
+    --color:black;
+}
+.btn:hover{
+    background-color: var(--color);
+    color: white;
+}
+
+/* BOUTON RED */
+
+.btn.red{
+    --color:red;
+}
+.btn.red:hover{
+    background-color: var(--color);
+}
+
+/* BOUTON GREEN */
+
+.btn.green{
+    --color:green;
+}
+.btn.green:hover{
+    background-color: var(--color);
+}
+
+/* BOUTON YELLOW */
+
+.btn.yellow{
+    --color:yellow;
+}
+.btn.yellow:hover{
+    background-color: var(--color);
+}
+
+/* BOUTON BLUE */
+
+.btn.blue{
+    --color:blue;
+}
+.btn.blue:hover{
+    background-color: var(--color);
+}
